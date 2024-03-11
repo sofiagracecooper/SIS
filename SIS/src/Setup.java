@@ -15,6 +15,7 @@ public Student(String firstName, String lastName, double gpa, ArrayList<Course> 
     this.firstName = firstName;
     this.lastName = lastName;
     this.courses = courses;
+    this.calculateGPA();
 }
 public Course(int period, String className, String letterGrade)
 {
@@ -38,11 +39,21 @@ public String lastName getlastName()
 
 private void calculateGPA()
 {
-	if (courses.isEmpty())
+	if (courses.size()!=3))
 	{
-		gpa=0.00;
+		System.out.println("Error: Each student must have exactly three courses.");
 	
 	}
+	double totalGradePoints = 0.0;
+    int totalCourses = 3;
+    
+    for (Course course : courses) {
+        totalGradePoints += convertGradeToNum(course.getLetterGrade());
+    }
+
+    gpa = totalGradePoints / totalCourses;
+}
+
 	private double convertGradeToNum(char letterGrade) {
 	    if (grade == 'A') {
 	        return 4.0;
