@@ -40,8 +40,11 @@ public double gpa getgpa()
 	return gpa;
 }
 
-public double calculateGPA()
-{
-	
-}
+//public void calculateGPA()
+//{
+//	if(courses.IsEmpty())
+//	{
+//		return
+//	}
+//}
 }
