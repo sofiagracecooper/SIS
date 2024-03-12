@@ -36,7 +36,6 @@ public class CalculateGPA
 	    } else {
 	        count += 0.0; 
 	    }
-	    double finalCount = count/3;
-	    return d.format(finalCount);
+	    
 }
 }
