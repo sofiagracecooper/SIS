@@ -2,10 +2,6 @@ import java.util.Scanner;
 
 public class Sorting 
 	{
-	public static void main(String [] args)
-		{
-		howToSort();
-		}
 	
 	public static void howToSort()
 		{
@@ -20,12 +16,12 @@ public class Sorting
 		
 		else if(sortingChoice == 2)
 			{
-			//GPA();
+			GPA();
 			}
 		
 		else if(sortingChoice == 3)
 			{
-			//period();
+			period();
 			}
 		
 		else
@@ -33,19 +29,4 @@ public class Sorting
 			howToSort();
 			}
 		}
-	
-	public static void lastName()
-		{
-		System.out.println(arrayLists.student.getLastName(1));
-		}
-	
-//	public static void GPA()
-//		{
-//		for(int i = 0;)
-//		}
-//	
-//	public static void period()
-//		{
-//		for(int i = 0;)
-//		}
 	}
