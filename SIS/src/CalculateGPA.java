@@ -1,11 +1,24 @@
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 
 public class CalculateGPA 
 {
-	
-	DecimalFormat d = new DecimalFormat("0.00");
+	private void calculateGPA(ArrayList<Student> students)
+	{
+		
+		//double totalGradePoints = 0.0;
+	    //int totalCourses = 3;
+	    
+	   for (Student student : classGrade1) {
+		   
+	   }
+	   }
+	     //   totalGradePoints += convertGradeToNum(course.getLetterGrade());
+	   // }
+	//DecimalFormat d = new DecimalFormat("0.00");
 	private double convertGradeToNum(String letterGrade) {
 		double count = 0.0;
+		double gradePointAverage= 0.0;
 	    if (letterGrade.equals("A+")) {
 	        count += 4.3;
 	    } else if (letterGrade.equals("A")) {
@@ -37,6 +50,8 @@ public class CalculateGPA
 	        count += 0.0; 
 	    }
 	    double finalCount = count/3;
-	    return d.format(finalCount);
+	    gradePointAverage=Double.parseDouble(d.format(finalCount));
+	    return gradePointAverage;
+	    //return d.format(finalCount);
 }
 }
