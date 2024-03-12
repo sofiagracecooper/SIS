@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
-public class arrayLists
+public class Database
 	{
 		static ArrayList<Student> students = new ArrayList<Student>();
 		public static void fillArrayList() throws IOException
