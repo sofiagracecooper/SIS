@@ -1,15 +1,7 @@
-<<<<<<< HEAD
 public class CalculateGPA 
+{
+	private double convertGradeToNum(char letterGrade) 
 	{
-	public static void main(String[] args)
-		{
-		
-		}
-	}
-=======
-
-public class CalculateGPA {
-	private double convertGradeToNum(char letterGrade) {
 	    if (grade == 'A') {
 	        return 4.0;
 	    } else if (letterGrade == 'A') {
@@ -38,5 +30,5 @@ public class CalculateGPA {
 	        return 0.0; 
 	    }
 
+	}
 }
->>>>>>> branch 'master' of https://github.com/LukeDeNezza/SIS.git
