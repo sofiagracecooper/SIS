@@ -7,7 +7,7 @@ public class Sorting
 	
 	public static void lastName()
 		{
-		
+		for(int i = 0; i < student.getLastName)
 		}
 	
 	public static void GPA()
