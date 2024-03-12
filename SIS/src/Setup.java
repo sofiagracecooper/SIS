@@ -39,7 +39,7 @@ public String lastName getlastName()
 
 private void calculateGPA()
 {
-	if (courses.size()!=3))
+	if (courses.isEmpty())
 	{
 		System.out.println("Error: Each student must have exactly three courses.");
 	
@@ -55,9 +55,8 @@ private void calculateGPA()
 }
 
 	private double convertGradeToNum(char letterGrade) {
-	    if (grade == 'A') {
-	        return 4.0;
-	    } else if (letterGrade == 'A') {
+	    
+	     if (letterGrade == 'A') {
 	        return 4.0;
 	    } else if (letterGrade == 'A-') {
 	        return 3.7;
