@@ -15,7 +15,11 @@ public Student(String firstName, String lastName, double gpa, ArrayList<Course> 
     this.firstName = firstName;
     this.lastName = lastName;
     this.courses = courses;
+<<<<<<< HEAD
    // this.calculateGPA();
+=======
+    this.calculateGPA();
+>>>>>>> ddb341a39db02305b0e94211c32b9b0898102a83
 }
 public Course(int period, String className, String letterGrade)
 {
@@ -55,9 +59,8 @@ private void calculateGPA()
 }
 
 	private double convertGradeToNum(char letterGrade) {
-	    if (grade == 'A') {
-	        return 4.0;
-	    } else if (letterGrade == 'A') {
+	    
+	     if (letterGrade == 'A') {
 	        return 4.0;
 	    } else if (letterGrade == 'A-') {
 	        return 3.7;
