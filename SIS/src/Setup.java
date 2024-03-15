@@ -15,7 +15,7 @@ public Student(String firstName, String lastName, double gpa, ArrayList<Course> 
     this.firstName = firstName;
     this.lastName = lastName;
     this.courses = courses;
-    this.calculateGPA();
+   // this.calculateGPA();
 }
 public Course(int period, String className, String letterGrade)
 {
