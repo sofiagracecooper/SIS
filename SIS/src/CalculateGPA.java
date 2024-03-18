@@ -1,11 +1,48 @@
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 
 public class CalculateGPA 
 {
+<<<<<<< HEAD
 	
-	DecimalFormat d = new DecimalFormat("0.00");
+	private DecimalFormat decimalFormat = new DecimalFormat("0.00");
+	
+	public double calculateGPA(Student student)
+	{
+		String[] classNames = {student.getClassName1(), student.getClassName2(), student.getClassName3()};
+        String[] letterGrades = {student.getClassGrade1(), student.getClassGrade2(), student.getClassGrade3()};
+        double totalGradePoints = 0.0;
+        
+        for(int i=0;i<classNames.length;i++)
+        {
+        	totalGradePoints+=convertGradeToNum(letterGrades[i]);
+        }
+	
+	
+	double gpa=totalGradePoints/classNames.length;
+	
+	return Double.parseDouble(decimalFormat.format(gpa));
+	
+}
+	
+=======
+	private void calculateGPA(ArrayList<Student> students)
+	{
+		
+		//double totalGradePoints = 0.0;
+	    //int totalCourses = 3;
+	    
+	   for (Student student : classGrade1) {
+		   
+	   }
+	   }
+	     //   totalGradePoints += convertGradeToNum(course.getLetterGrade());
+	   // }
+	//DecimalFormat d = new DecimalFormat("0.00");
+>>>>>>> ddb341a39db02305b0e94211c32b9b0898102a83
 	private double convertGradeToNum(String letterGrade) {
 		double count = 0.0;
+		double gradePointAverage= 0.0;
 	    if (letterGrade.equals("A+")) {
 	        count += 4.3;
 	    } else if (letterGrade.equals("A")) {
@@ -36,6 +73,18 @@ public class CalculateGPA
 	    } else {
 	        count += 0.0; 
 	    }
+<<<<<<< HEAD
+	    return count;
+	}
+=======
+	    double finalCount = count/3;
+	    gradePointAverage=Double.parseDouble(d.format(finalCount));
+	    return gradePointAverage;
+	    //return d.format(finalCount);
+}
+>>>>>>> ddb341a39db02305b0e94211c32b9b0898102a83
+}
+// idk why its not letting me commit
 	    
-}
-}
+
+
