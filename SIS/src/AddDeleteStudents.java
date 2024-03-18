@@ -13,15 +13,14 @@ public class AddDeleteStudents
 			
 		
 			System.out.println("Input the first name of the student..");
-			String firstName =userStringInput .nextLine();
+			String FN =userStringInput .nextLine();
 			
 	
 			System.out.println("Input the last name of the student.");
-			String lastName = userStringInput.nextLine();
+			String LN = userStringInput.nextLine();
 			
 			
-			System.out.println("Input the GPA of the student");
-			double  GPA = userDoubleInput.nextDouble();
+			double  GPA = 0.0;
 			
 			System.out.println("Input the first class the student has.");
 			String classNameOne = userStringInput.nextLine();
@@ -41,7 +40,7 @@ public class AddDeleteStudents
 			System.out.println("Input the grade this student has in this class.");
 			String classThreeGrade = userStringInput.nextLine();
 			
-			Database.students.add(new Student( firstName, lastName ,GPA, classNameOne,  classOneGrade,classNameTwo, classTwoGrade, classNameThree, classThreeGrade,))
+			Database.students.add(new Student(FN, LN ,GPA, classNameOne,  classOneGrade,classNameTwo, classTwoGrade, classNameThree, classThreeGrade));
 			
 		}
 		
