@@ -1,5 +1,5 @@
+
 import java.text.DecimalFormat;
-//import java.util.ArrayList;
 
 public class CalculateGPA 
 {
@@ -25,7 +25,6 @@ public class CalculateGPA
 	
 }
 	
-
 
 	private double convertGradeToNum(String letterGrade) {
 		double count = 0.0;
@@ -59,12 +58,13 @@ public class CalculateGPA
 	    } else {
 	        count += 0.0; 
 	    }
+
 	    return count;
 	}
 
 }
 
 
-	    
+
 
 
