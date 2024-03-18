@@ -1,4 +1,8 @@
 public class CourseSorter 
 	{
-	System.out.println(Database.students.get(1).getClassName1());
+	public static void sortByCourse()
+			{
+			System.out.println(Database.students.get(1).getClassName1());
+			}
+	
 	}

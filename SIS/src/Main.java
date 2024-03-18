@@ -6,5 +6,6 @@ public class Main
 		{
 		Database.fillArrayList();
 		Sorting.howToSort();
+		//CalculateGPA.calculateGPA();
 		}
 	}

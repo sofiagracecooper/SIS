@@ -11,17 +11,17 @@ public class Sorting
 		
 		if(sortingChoice == 1)
 			{
-			lastName();
+			NameSorter.sortByName();
 			}
 		
 		else if(sortingChoice == 2)
 			{
-			GPA();
+			GPASorter.sortByGPA();
 			}
 		
 		else if(sortingChoice == 3)
 			{
-			period();
+			NameSorter.sortByName();
 			}
 		
 		else

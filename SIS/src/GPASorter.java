@@ -1,4 +1,9 @@
 public class GPASorter 	
 	{
-	System.out.println(Database.students.get(1).getGpa());
+	public static void sortByGPA()
+		{
+		CalculateGPA.calculateGPA();
+		System.out.println(Database.students.get(1).getGpa());
+		}
+	
 	}
