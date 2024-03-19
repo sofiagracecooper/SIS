@@ -5,7 +5,7 @@ public class Main
 	{
 		public static void main(String[] args) throws IOException
 		{
-		//Database.fillArrayList();
+		Database.fillArrayList();
 		//Sorting.howToSort();
 		//CalculateGPA.calculateGPA();
 			
@@ -15,7 +15,7 @@ public class Main
 			int answer = userIntInput.nextInt();
 			if(answer == 1)
 				{
-					System.out.println("What would you like to do? \n(1) Add a Student? \n (2) Delete a Student?");
+					System.out.println("What would you like to do? \n(1) Add a Student? \n(2) Delete a Student?");
 					int answer2 = userIntInput.nextInt();
 						if(answer2 == 1)
 							{
@@ -29,7 +29,7 @@ public class Main
 				}
 			else if(answer == 2)
 				{
-					ChangeGradeAndSchedule();
+					//ChangeGradeAndSchedule();
 				}
 			else if(answer == 3)
 				{
