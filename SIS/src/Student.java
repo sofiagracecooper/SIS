@@ -87,17 +87,6 @@ public class Student
 			return classGrade3;
 		}
 
-
-	public void setClassGrade3(String classGrade3)
-		{
-			this.classGrade3 = classGrade3;
-		}
-
-<<<<<<< HEAD
-
-=======
-	
->>>>>>> upstream/master
 	public String getFirstName()
 		{
 		return firstName;
