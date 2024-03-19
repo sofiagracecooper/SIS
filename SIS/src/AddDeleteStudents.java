@@ -1,15 +1,19 @@
+
 import java.util.Scanner;
-import java.util.ArrayList;
 
 public class AddDeleteStudents
 	{
 
+	public static void main(String[] args)
+		{
+				
+ 
+		}
 		
-		public static void AddStudents()
+	public static void AddStudents()
 		{
 			Scanner userStringInput = new Scanner(System.in);
 			Scanner userIntInput = new Scanner(System.in);
-			Scanner userDoubleInput = new Scanner(System.in);
 			
 		
 			System.out.println("Input the first name of the student..");
@@ -44,11 +48,9 @@ public class AddDeleteStudents
 			
 		}
 		
-		public static void DeleteStudent()
+	public static void DeleteStudent()
 		{
 			
 		}
 		
-		
-
 	}
