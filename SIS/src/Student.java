@@ -92,12 +92,7 @@ public class Student
 		{
 			this.classGrade3 = classGrade3;
 		}
-
-
 	
-}
-
-
 	public String getFirstName()
 		{
 		return firstName;
