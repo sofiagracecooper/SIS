@@ -13,6 +13,7 @@ public class Sorting
 		if(sortingChoice == 1)
 			{
 			Collections.sort(Database.students, new NameSorter());
+			PrintStudents.printStudents();
 			}
 		
 		else if(sortingChoice == 2)
@@ -23,6 +24,7 @@ public class Sorting
 		else if(sortingChoice == 3)
 			{
 			Collections.sort(Database.students, new CourseSorter());
+			PrintStudents.printStudents();
 			}
 		
 		else
