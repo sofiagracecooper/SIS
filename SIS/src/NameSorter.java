@@ -1,8 +1,9 @@
-public class NameSorter 
+import java.util.Comparator;
+
+public class NameSorter implements Comparator<Student>
 	{
-	public static int sortByName()
+	public int compare(Student s1,  Student s2)
 		{
-		System.out.println(Database.students.get(0).getLastName().compareTo(Database.students.get(1).getLastName()));
-		return Database.students.get(0).getLastName().compareTo(Database.students.get(1).getLastName());
+		return s1.getLastName().compareTo(s2.getLastName());
 		}
 	}
