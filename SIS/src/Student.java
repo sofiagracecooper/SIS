@@ -10,6 +10,19 @@ public class Student
 	private String className3;
 	private String classGrade3;
 	
+	public Student (String f, String l, double g, String n1, String g1, String n2, String g2, String n3, String g3)
+	{
+		firstName = f;
+		lastName = l;
+		gpa = g;
+		className1 = n1;
+		classGrade1 = g1;
+		className2 = n2;
+		classGrade2 = g2;
+		className3 = n3;
+		classGrade3= g3;
+	}
+	
 
 	public String getClassName1()
 		{
