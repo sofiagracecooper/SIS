@@ -1,10 +1,16 @@
+
 import java.util.Scanner;
 
 public class AddDeleteStudents
 	{
 
+	public static void main(String[] args)
+		{
+				
+ 
+		}
 		
-		public static void AddStudents()
+	public static void AddStudents()
 		{
 			Scanner userStringInput = new Scanner(System.in);
 			Scanner userIntInput = new Scanner(System.in);
@@ -42,11 +48,9 @@ public class AddDeleteStudents
 			
 		}
 		
-		public static void DeleteStudent()
+	public static void DeleteStudent()
 		{
 			
 		}
 		
-		
-
 	}
