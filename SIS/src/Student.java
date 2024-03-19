@@ -93,7 +93,11 @@ public class Student
 			this.classGrade3 = classGrade3;
 		}
 
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> upstream/master
 	public String getFirstName()
 		{
 		return firstName;
