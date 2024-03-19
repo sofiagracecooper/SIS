@@ -10,7 +10,7 @@ public class AddDeleteStudents
  
 		}
 		
-	public static void AddStudents()
+	public static void addStudent()
 		{
 			Scanner userStringInput = new Scanner(System.in);
 			
@@ -46,7 +46,7 @@ public class AddDeleteStudents
 			
 		}
 		
-	public static void DeleteStudent()
+	public static void deleteStudent()
 		{
 			Scanner userIntInput = new Scanner(System.in);
 			System.out.println("What number student would you like to delete?");
