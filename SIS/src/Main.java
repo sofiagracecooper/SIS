@@ -20,11 +20,11 @@ public class Main
 					int answer2 = userIntInput.nextInt();
 						if(answer2 == 1)
 							{
-								AddDeleteStudents.AddStudents();
+								AddDeleteStudents.addStudent();
 							}
 						else if(answer2 == 2)
 							{
-								AddDeleteStudents.DeleteStudent();
+								AddDeleteStudents.deleteStudent();
 							}
 
 				}
