@@ -1,9 +1,10 @@
 
 import java.text.DecimalFormat;
-import java.util.ArrayList;
 
 public class CalculateGPA 
 {
+
+	
 	private DecimalFormat decimalFormat = new DecimalFormat("0.00");
 	
 	public double calculateGPA(Student student)
@@ -24,9 +25,9 @@ public class CalculateGPA
 	
 }
 	
+
 	private double convertGradeToNum(String letterGrade) {
 		double count = 0.0;
-		double gradePointAverage= 0.0;
 	    if (letterGrade.equals("A+")) {
 	        count += 4.3;
 	    } else if (letterGrade.equals("A")) {
@@ -57,6 +58,13 @@ public class CalculateGPA
 	    } else {
 	        count += 0.0; 
 	    }
+
 	    return count;
 	}
+
 }
+
+
+
+
+

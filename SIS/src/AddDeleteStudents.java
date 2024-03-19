@@ -24,8 +24,6 @@ public class AddDeleteStudents
 			String LN = userStringInput.nextLine();
 			
 			
-			double  GPA = 0.0;
-			
 			System.out.println("Input the first class the student has.");
 			String classNameOne = userStringInput.nextLine();
 			
@@ -44,7 +42,7 @@ public class AddDeleteStudents
 			System.out.println("Input the grade this student has in this class.");
 			String classThreeGrade = userStringInput.nextLine();
 			
-			Database.students.add(new Student(FN, LN ,GPA, classNameOne,  classOneGrade,classNameTwo, classTwoGrade, classNameThree, classThreeGrade));
+			Database.students.add(new Student(FN, LN , classNameOne,  classOneGrade,classNameTwo, classTwoGrade, classNameThree, classThreeGrade));
 			
 		}
 		

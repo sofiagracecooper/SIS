@@ -2,7 +2,6 @@ public class Student
 	{
 	private String firstName;
 	private String lastName;
-	private double gpa;
 	private String className1;
 	private String classGrade1;
 	private String className2;
@@ -10,11 +9,10 @@ public class Student
 	private String className3;
 	private String classGrade3;
 	
-	public Student (String f, String l, double g, String n1, String g1, String n2, String g2, String n3, String g3)
+	public Student (String f, String l, String n1, String g1, String n2, String g2, String n3, String g3)
 	{
 		firstName = f;
 		lastName = l;
-		gpa = g;
 		className1 = n1;
 		classGrade1 = g1;
 		className2 = n2;
@@ -95,6 +93,7 @@ public class Student
 			this.classGrade3 = classGrade3;
 		}
 
+
 	public String getFirstName()
 		{
 		return firstName;
@@ -116,18 +115,6 @@ public class Student
 	public void setLastName(String lastName)
 		{
 		this.lastName = lastName;
-		}
-
-
-	public double getGpa()
-		{
-		return gpa;
-		}
-
-
-	public void setGpa(double gpa)
-		{
-		this.gpa = gpa;
 		}
 
 	}	
