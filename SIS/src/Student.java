@@ -95,22 +95,6 @@ public class Student
 			this.classGrade3 = classGrade3;
 		}
 
-
-	public Student(String firstName, String lastName, String className1, String classGrade1, String className2, String classGrade2, String className3, String classGrade3, double gpa) {
-
-	    this.firstName = firstName;
-	    this.lastName = lastName;
-
-	    this.className1 = className1;
-	    this.classGrade1 = classGrade1;
-	    this.className2 = className2;
-	    this.classGrade2 = classGrade2;
-	    this.className3 = className3;
-	    this.classGrade3 = classGrade3;
-	    this.gpa = gpa;
-}
-
-
 	public String getFirstName()
 		{
 		return firstName;
