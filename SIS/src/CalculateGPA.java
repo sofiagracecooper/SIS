@@ -5,7 +5,7 @@ public class CalculateGPA
 {
 	private DecimalFormat decimalFormat = new DecimalFormat("0.00");
 	
-	public double calculateGPA(Student student)
+	public static  double calculateGPA(Student student)
 	{
 		String[] classNames = {student.getClassName1(), student.getClassName2(), student.getClassName3()};
         String[] letterGrades = {student.getClassGrade1(), student.getClassGrade2(), student.getClassGrade3()};

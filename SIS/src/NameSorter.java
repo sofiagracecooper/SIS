@@ -1,7 +1,8 @@
 public class NameSorter 
 	{
-	public int comparesortByName()
+	public static int sortByName()
 		{
-		return 
+		System.out.println(Database.students.get(0).getLastName().compareTo(Database.students.get(1).getLastName()));
+		return Database.students.get(0).getLastName().compareTo(Database.students.get(1).getLastName());
 		}
 	}

@@ -21,7 +21,7 @@ public class Sorting
 		
 		else if(sortingChoice == 3)
 			{
-			NameSorter.sortByName();
+			CourseSorter.sortByCourse();
 			}
 		
 		else
