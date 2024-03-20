@@ -20,11 +20,11 @@ public class Main
 					answer = userIntInput.nextInt();
 						if(answer == 1)
 							{
-								AddDeleteStudents.AddStudents();
+								//AddDeleteStudents.AddStudents();
 							}
 						else if(answer == 2)
 							{
-								AddDeleteStudents.DeleteStudent();
+								//AddDeleteStudents.DeleteStudent();
 							}
 
 				}
@@ -39,7 +39,8 @@ public class Main
 							}
 						else if(answer == 2)
 							{
-								//ChangeGradeAndClass.changeClass();
+								ChangeGradeAndClass.listStudents();
+								ChangeGradeAndClass.changeClass();
 							}
 				}
 			else if(answer == 3)
