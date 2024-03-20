@@ -80,19 +80,6 @@ public class Student
 		{
 			this.className3 = className3;
 		}
-
-
-	public String getClassGrade3()
-		{
-			return classGrade3;
-		}
-
-
-	public void setClassGrade3(String classGrade3)
-		{
-			this.classGrade3 = classGrade3;
-		}
-
 	public String getFirstName()
 		{
 		return firstName;
