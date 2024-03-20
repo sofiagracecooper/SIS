@@ -13,5 +13,4 @@ public class SortByThirdPeriod implements Comparator<Student>
 		return s1.getClassName3().compareTo(s2.getClassName3());
 
 		}
-
 	}

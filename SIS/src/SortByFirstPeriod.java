@@ -13,5 +13,4 @@ public class SortByFirstPeriod implements Comparator<Student>
 		return s1.getClassName1().compareTo(s2.getClassName1());
 
 		}
-
 	}
