@@ -59,12 +59,8 @@ public class CalculateGPA
 	        count += 0.0; 
 	    }
 
+
 	    return count;
 	}
 
 }
-
-
-
-
-

@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Sorting 
@@ -11,17 +12,19 @@ public class Sorting
 		
 		if(sortingChoice == 1)
 			{
-			NameSorter.sortByName();
+			Collections.sort(Database.students, new NameSorter());
+			PrintStudents.printStudents();
 			}
 		
 		else if(sortingChoice == 2)
 			{
-			GPASorter.sortByGPA();
+			
 			}
 		
 		else if(sortingChoice == 3)
 			{
-			NameSorter.sortByName();
+			Collections.sort(Database.students, new CourseSorter());
+			PrintStudents.printStudents();
 			}
 		
 		else

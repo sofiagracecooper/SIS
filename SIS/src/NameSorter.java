@@ -1,7 +1,11 @@
-public class NameSorter 
+import java.util.Comparator;
+
+public class NameSorter implements Comparator<Student>
 	{
-	public int comparesortByName()
+	public int compare(Student s1,  Student s2)
 		{
-		return 
+		return s1.getLastName().compareTo(s2.getLastName());
 		}
+	
+	
 	}
