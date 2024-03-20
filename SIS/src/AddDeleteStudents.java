@@ -42,7 +42,7 @@ public class AddDeleteStudents
 			System.out.println("Input the grade this student has in this class.");
 			String classThreeGrade = userStringInput.nextLine();
 			
-			Database.students.add(new Student(FN, LN , classNameOne,  classOneGrade,classNameTwo, classTwoGrade, classNameThree, classThreeGrade));
+			Database.students.add(new Student(FN, LN , classNameOne,  classOneGrade,classNameTwo, classTwoGrade, classNameThree, classThreeGrade,0.0));
 			
 		}
 		
