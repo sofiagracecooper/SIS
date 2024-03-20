@@ -1,9 +1,13 @@
-public class GPASorter 	
+import java.util.Comparator;
+
+
+public class GPASorter implements Comparator<Student>
+{
+	public int compare (Student s1, Student s2)
 	{
-	public static void sortByGPA()
-		{
-		CalculateGPA.calculateGPA(Database.students.get(0));
-		System.out.println(Database.students.get(0).getGpa());
-		}
-	
+		if(s1.getGPA()<s2.getGPA())
+			return 1;
+		else
+			return -1;
 	}
+}
