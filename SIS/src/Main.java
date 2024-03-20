@@ -39,7 +39,8 @@ public class Main
 							}
 						else if(answer == 2)
 							{
-								//ChangeGradeAndClass.changeClass();
+								ChangeGradeAndClass.listStudents();
+								ChangeGradeAndClass.changeClass();
 							}
 				}
 			else if(answer == 3)

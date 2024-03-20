@@ -80,13 +80,20 @@ public class Student
 		{
 			this.className3 = className3;
 		}
+<<<<<<< HEAD
 
 
 	public String getClassGrade3()
 		{
 			return classGrade3;
 		}
-
+	
+	public void setClassGrade3(String classGrade3)
+		{
+			this.classGrade3 = classGrade3;
+		}
+=======
+>>>>>>> branch 'master' of https://github.com/LukeDeNezza/SIS.git
 	public String getFirstName()
 		{
 		return firstName;
