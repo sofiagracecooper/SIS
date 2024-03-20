@@ -8,8 +8,9 @@ public class Student
 	private String classGrade2;
 	private String className3;
 	private String classGrade3;
+	private double GPA;
 	
-	public Student (String f, String l, String n1, String g1, String n2, String g2, String n3, String g3)
+	public Student (String f, String l, String n1, String g1, String n2, String g2, String n3, String g3, double G)
 	{
 		firstName = f;
 		lastName = l;
@@ -19,6 +20,7 @@ public class Student
 		classGrade2 = g2;
 		className3 = n3;
 		classGrade3= g3;
+		GPA = G;
 	}
 	
 
@@ -80,7 +82,7 @@ public class Student
 		{
 			this.className3 = className3;
 		}
-<<<<<<< HEAD
+
 
 
 	public String getClassGrade3()
@@ -92,8 +94,7 @@ public class Student
 		{
 			this.classGrade3 = classGrade3;
 		}
-=======
->>>>>>> branch 'master' of https://github.com/LukeDeNezza/SIS.git
+	
 	public String getFirstName()
 		{
 		return firstName;
@@ -115,6 +116,17 @@ public class Student
 	public void setLastName(String lastName)
 		{
 		this.lastName = lastName;
+		}
+	
+	public double getGPA()
+		{
+		return GPA;
+		}
+
+
+	public void setGPA(double GPA)
+		{
+		this.GPA = GPA;
 		}
 
 	}	
