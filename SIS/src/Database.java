@@ -12,7 +12,6 @@ public class Database
 					{
 	students.add(new Student(myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), 0.0));
 
-
 					
 					}
 		}
