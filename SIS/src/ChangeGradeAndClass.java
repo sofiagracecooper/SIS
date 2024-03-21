@@ -1,5 +1,4 @@
  import java.util.Scanner;
-
 public class ChangeGradeAndClass
 	{
 		
@@ -12,7 +11,6 @@ public class ChangeGradeAndClass
 					count++;
 				}
 		}
-
 		public static void changeGrade()
 			{
 				Scanner userIntInput = new Scanner(System.in);
