@@ -83,8 +83,6 @@ public class Student
 			this.className3 = className3;
 		}
 
-
-
 	public String getClassGrade3()
 		{
 			return classGrade3;
@@ -94,7 +92,7 @@ public class Student
 		{
 			this.classGrade3 = classGrade3;
 		}
-	
+
 	public String getFirstName()
 		{
 		return firstName;
