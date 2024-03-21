@@ -5,8 +5,8 @@ public class CalculateGPA {
 
     private DecimalFormat decimalFormat = new DecimalFormat("0.00");
 
-    public  double calculateGPA( Student student) {
-        //for (Student student : Database.students) {
+    public  void calculateGPA() {
+        for (Student student : Database.students) {
             String[] classNames = {student.getClassName1(), student.getClassName2(), student.getClassName3()};
             String[] letterGrades = {student.getClassGrade1(), student.getClassGrade2(), student.getClassGrade3()};
             double totalGradePoints = 0.0;
@@ -17,9 +17,10 @@ public class CalculateGPA {
 
             double gpa = totalGradePoints / classNames.length;
             double roundedGpa = Double.parseDouble(decimalFormat.format(gpa));
-            //student.setGPA(roundedGpa);
+            student.setGPA(roundedGpa);
+        }
         
-        return roundedGpa;
+      
     }
 
     private double convertGradeToNum(String letterGrade) {
