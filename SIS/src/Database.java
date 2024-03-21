@@ -10,7 +10,8 @@ public class Database
 			Scanner myFile = new Scanner(new File("Studentlist.txt"));
 				while(myFile.hasNext())
 					{
-					students.add(new Student(myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), 0.0));
+	students.add(new Student(myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), myFile.next(), 0.0));
+
 
 					
 					}

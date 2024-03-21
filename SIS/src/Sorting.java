@@ -50,6 +50,7 @@ public class Sorting
 		{
 		howToSort();
 		}
+		scanner.close();
 		}
 	}
 
