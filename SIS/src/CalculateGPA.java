@@ -21,7 +21,9 @@ public class CalculateGPA
 	
 	double gpa=totalGradePoints/classNames.length;
 	
-	return Double.parseDouble(decimalFormat.format(gpa));
+	double roundedGpa= Double.parseDouble(decimalFormat.format(gpa));
+	student.setGPA(roundedGpa);
+	return roundedGpa;
 	
 }
 	
